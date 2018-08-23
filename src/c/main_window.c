@@ -10,7 +10,7 @@ void main_window_load(){
 	BitmapLayer *top_dot_layer = bitmap_layer_create(GRect(PBL_IF_ROUND_ELSE(65,47),PBL_IF_ROUND_ELSE(30,24),50,50));
 	bitmap_layer_set_background_color(top_dot_layer,GColorWhite);
 	
-	BitmapLayer *bottom_dot_layer = bitmap_layer_create(GRect(PBL_IF_ROUND_ELSE(65,47),PBL_IF_ROUND_ELSE(10,94),50,50));
+	BitmapLayer *bottom_dot_layer = bitmap_layer_create(GRect(PBL_IF_ROUND_ELSE(65,47),PBL_IF_ROUND_ELSE(100,94),50,50));
 	bitmap_layer_set_background_color(bottom_dot_layer,GColorWhite);
 	
 	layer_add_child(window_layer,bitmap_layer_get_layer(top_dot_layer));
